@@ -1,6 +1,7 @@
 **How Netflix Uses Data Science for Personalization: The secrets behind recommendation engines**.
 Have you ever noticed that once you finish watching one episode of your favorite Netflix show, an interesting recommendation appears that you just can’t ignore? 
 That’s all because Netflix works for you by deploying AI/ML and data science to match your preferences with existing content on the platform
+
 ![NNNTT](https://github.com/user-attachments/assets/affd6cb0-4a81-4905-bf9e-90f5367b97eb)
 
 
@@ -41,6 +42,7 @@ Fast forward to 2020, Netflix revealed that 80% of the content viewed on the pla
 Use Cases of AI/ML/Data Science in Netflix
 Netflix has gone beyond using data analytics to boost their business and have developed an entire research department which is integrated into their business and engineering teams. 
 They’ve released open-source machine learning algorithms and Python frameworks aimed at boosting the productivity of Data Scientists and businesses.
+
 ![recomm](https://github.com/user-attachments/assets/e1fb0935-1d00-4918-b480-c8e954616471)
 
 1.	Content-based Filtering
@@ -59,6 +61,7 @@ How can we measure the similarity between two items: in terms of the users who p
 A hybrid recommendation system is defined as a framework that combines content-based and collaborative filtering recommendation systems to enhance performance by addressing the limitations of traditional recommendation techniques.
 
 **Personalized Thumbnails: To attract customers**
+
 ![MMVIE](https://github.com/user-attachments/assets/b897a26d-ca45-40dc-8f62-a5867e99c659)
 
 A personalized thumbnail, also known as a custom thumbnail, is an image that a user uploads to represent their video and attract viewers,grow their audience, and generate more attention.
@@ -81,7 +84,9 @@ The dataset has two main files in the format of CSV:
 8.Utilize the trained model to make predictions on the test set and evaluate its performance using metrics like Mean Squared Error (MSE) or Root Mean Squared Error (RMSE).
 9.Once your model is trained and evaluated, you can generate movie recommendations for a specific user. Consider recommending movies with the highest predicted ratings that the user has not seen.
 10.Depending on your goals, you can deploy the recommender system as a web application, or API, or integrate it into an existing platform. This step allows users to interact with and benefit from your personalized movie recommendations.
+
 ![pop](https://github.com/user-attachments/assets/fbcdd351-d58b-4bae-a69b-badf78f24e27)
+
 
 
 **Conclusion**:
