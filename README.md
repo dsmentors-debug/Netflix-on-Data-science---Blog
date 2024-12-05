@@ -3,7 +3,9 @@
 Have you ever noticed that once you finish watching one episode of your favorite Netflix show, an interesting recommendation appears that you just can’t ignore? 
 That’s all because Netflix works for you by deploying AI/ML and data science to match your preferences with existing content on the platform
 
-![NNNTT](https://github.com/user-attachments/assets/affd6cb0-4a81-4905-bf9e-90f5367b97eb)
+
+![NETFL](https://github.com/user-attachments/assets/fdbf7786-c572-443f-9e18-2d7322eb67be)
+
 
 
 **Why Millions of Viewers Fell in Love with Netflix?**
@@ -48,7 +50,8 @@ They’ve released open-source machine learning algorithms and Python frameworks
 
 ![recomm](https://github.com/user-attachments/assets/e1fb0935-1d00-4918-b480-c8e954616471)
 
-1.	Content-based Filtering
+1.	**Content-based Filtering**
+   
 It uses items which are closer to each other or look like
 Recommend item to user A based on ratings user A gave the last time
 No need for data of other customers
@@ -56,16 +59,19 @@ It uses techniques of cosine similarity to determine the closeness of items -
         "Cosine similarity is often used in recommendation systems to suggest items or services to customers based on their preferences.
          The cosine similarity between the user and product vectors is determined, and the products with the best scores are suggested to the user."
 
-2.	Collaborative filtering
+2.	**Collaborative filtering**
+   
 How can we measure the similarity between users : in terms of item they purchase
 How can we measure the similarity between two items: in terms of the users who purchased
 
-3. Hybrid filtering
+*3. **Hybrid filtering**
+
 A hybrid recommendation system is defined as a framework that combines content-based and collaborative filtering recommendation systems to enhance performance by addressing the limitations of traditional recommendation techniques.
 
 **Personalized Thumbnails: To attract customers**
 
 ![MMVIE](https://github.com/user-attachments/assets/b897a26d-ca45-40dc-8f62-a5867e99c659)
+
 
 A personalized thumbnail, also known as a custom thumbnail, is an image that a user uploads to represent their video and attract viewers,grow their audience, and generate more attention.
 A personalized thumbnail can help a user present themselves in a positive light and create a good first impression.
@@ -77,8 +83,8 @@ To make a personalized thumbnail more visually appealing, users can use bold, br
 Import numpy and pandas machine learning libraries, as we will use them for data frames and evaluating correlations.
 2. Get the Data
 The dataset has two main files in the format of CSV:
-  Ratings.csv: Contains the rating given by each user to each movie they watched
-  Moviesmetadata.csv: Contains information on genre, budget, release date, revenue, and so on for all the movies in the dataset.
+Ratings.csv: Contains the rating given by each user to each movie they watched
+Moviesmetadata.csv: Contains information on genre, budget, release date, revenue, and so on for all the movies in the dataset.
 
 3.Handle missing values , lowercase and punctuation in dataset.
 
@@ -101,6 +107,7 @@ The dataset has two main files in the format of CSV:
 
 
 **Conclusion**:
+
 Every company has to keep up to date with the technology to provide the best satisfaction set of recommendations to all their users.Many things are going on in the field of recommendation engines.With a touch of AI,
 you will be impressing your audience and turning them into your life long fans faster than you imagine.Stay engaged with user feedback and continuously update your model with new data to ensure its effectiveness over time.
 
