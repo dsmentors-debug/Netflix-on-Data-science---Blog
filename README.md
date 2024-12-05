@@ -1,3 +1,4 @@
+
 **How Netflix Uses Data Science for Personalization: The secrets behind recommendation engines**.
 
 Have you ever noticed that once you finish watching one episode of your favorite Netflix show, an interesting recommendation appears that you just can’t ignore? 
@@ -8,12 +9,15 @@ That’s all because Netflix works for you by deploying AI/ML and data science t
 
 
 
+
 **Why Millions of Viewers Fell in Love with Netflix?**
 
-In simple terms, you can think of Netflix’s AI as your personal T.V match maker. It understands, your viewing preferences and uses that knowledge to help you find movies and shows that you would love.Netflix’s AI is pretty good at its job. In fact, back in 2016, Netflix CEO Reed Hastings mentioned that “Over 75% of what people watch on Netflix is discovered through our recommendation system.”
+In simple terms, you can think of Netflix’s AI as your personal T.V match maker. It understands, your viewing preferences and uses that knowledge to help you find movies and shows that you would love.Netflix’s AI is pretty good at its job.
+In fact, back in 2016, Netflix CEO Reed Hastings mentioned that “Over 75% of what people watch on Netflix is discovered through our recommendation system.”
 Fast forward to 2020, Netflix revealed that 80% of the content viewed on the platform comes from these personalized recommendations.
 
 **Key Takeaways**
+
 •	A recommendation engine is a type of data tool that uses machine learning and algorithms to recommend products, services, and information to users based on data analysis.
 •	There are three main types of recommendation engines — non-personalized, content-based, and  collaborative filtering. 
 •	Yish’s research shows that Netflix uses a hybrid model of content-based and collaborative filtering.
@@ -24,23 +28,36 @@ Fast forward to 2020, Netflix revealed that 80% of the content viewed on the pla
         • Personalisation
         • Discovery
         • Reports and Analytics
+        
 
 **So how does Netflix’s AI work?**
 
-"Personalized recommendations on the Netflix Homepage are based on a user's viewing habits and the behavior of similar users"
+**        **"Personalized recommendations on the Netflix Homepage are based on a user's viewing habits and the behavior of similar users"**
 
 •	User profile information such as age, gender, location, and selected favorite content upon sign up
+
 •	Netflix tracks what you watch, how long you watch it, and whether you finish it.
+
 •	If the show was paused, rewound, or fast-forwarded
+
 •	If the viewer resumed watching after pausing
+
 •	what titles you start watching, if you finish those titles, and how you rate those titles, such as thumbs up
+
 •	Whether an entire TV series or movie was completed
+
 •	Whether the viewer gave the show or movie a thumbs up
+
 •	Scenes users have viewed repeatedly
+
 •	The number of searches and what is searched for
+
 •	Where a user watched the show (by postal code)
+
 •	Browsing and scrolling behavior
+
 •	Screen shots when the show was paused, when the user left the show, and when the user watches a scene more than once
+
 •	Netflix then rates each show and movies based on the factors like popularity, user ratings, and how well they match your taste.
 
 **Use Cases of AI/ML/Data Science in Netflix**
@@ -81,15 +98,16 @@ To make a personalized thumbnail more visually appealing, users can use bold, br
 
 1. Import the required libraries.
 Import numpy and pandas machine learning libraries, as we will use them for data frames and evaluating correlations.
-2. Get the Data
+
+2.Get the Data
 The dataset has two main files in the format of CSV:
 Ratings.csv: Contains the rating given by each user to each movie they watched
 Moviesmetadata.csv: Contains information on genre, budget, release date, revenue, and so on for all the movies in the dataset.
 
 3.Handle missing values , lowercase and punctuation in dataset.
 
-4. Removal of Stop words and stemming could be used for efficient data structure.
-   
+4.Removal of Stop words and stemming could be used for efficient data structure.
+
 5.Construct a user-item matrix where rows represent users, columns represent movies, and entries represent user ratings. This matrix will serve as the foundation for collaborative filtering.
 
 6.Divide your dataset into training and testing sets. This is essential for evaluating the performance of your recommender system accurately
