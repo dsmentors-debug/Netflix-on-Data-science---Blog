@@ -26,11 +26,13 @@ Fast forward to 2020, Netflix revealed that 80% of the content viewed on the pla
 
 
 **Why Recommendation systems:**
+
         • Revenue
         • Customer Satisfaction
         • Personalisation
         • Discovery
         • Reports and Analytics
+
         
 
 **So how does Netflix’s AI work?**
