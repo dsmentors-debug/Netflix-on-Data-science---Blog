@@ -15,11 +15,11 @@ Fast forward to 2020, Netflix revealed that 80% of the content viewed on the pla
 •	Yish’s research shows that Netflix uses a hybrid model of content-based and collaborative filtering.
 
 **Why Recommendation systems:**
-•	Revenue
-•	Customer Satisfaction
-•	Personalisation
-•	Discovery
-•	Reports and Analytics
+        • Revenue
+        • Customer Satisfaction
+        • Personalisation
+        • Discovery
+        • Reports and Analytics
 
 **So how does Netflix’s AI work?**
 
@@ -76,13 +76,21 @@ Import numpy and pandas machine learning libraries, as we will use them for data
 The dataset has two main files in the format of CSV:
   Ratings.csv: Contains the rating given by each user to each movie they watched
   Moviesmetadata.csv: Contains information on genre, budget, release date, revenue, and so on for all the movies in the dataset.
+
 3.Handle missing values , lowercase and punctuation in dataset.
+
 4. Removal of Stop words and stemming could be used for efficient data structure.
+   
 5.Construct a user-item matrix where rows represent users, columns represent movies, and entries represent user ratings. This matrix will serve as the foundation for collaborative filtering.
+
 6.Divide your dataset into training and testing sets. This is essential for evaluating the performance of your recommender system accurately
+
 7.Select a collaborative filtering algorithm for your project. User-based and item-based collaborative filtering are common choices. For this guide, we’ll use the user-based approach
+
 8.Utilize the trained model to make predictions on the test set and evaluate its performance using metrics like Mean Squared Error (MSE) or Root Mean Squared Error (RMSE).
+
 9.Once your model is trained and evaluated, you can generate movie recommendations for a specific user. Consider recommending movies with the highest predicted ratings that the user has not seen.
+
 10.Depending on your goals, you can deploy the recommender system as a web application, or API, or integrate it into an existing platform. This step allows users to interact with and benefit from your personalized movie recommendations.
 
 ![pop](https://github.com/user-attachments/assets/fbcdd351-d58b-4bae-a69b-badf78f24e27)
