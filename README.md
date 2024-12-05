@@ -19,8 +19,11 @@ Fast forward to 2020, Netflix revealed that 80% of the content viewed on the pla
 **Key Takeaways**
 
 •	A recommendation engine is a type of data tool that uses machine learning and algorithms to recommend products, services, and information to users based on data analysis.
+
 •	There are three main types of recommendation engines — non-personalized, content-based, and  collaborative filtering. 
+
 •	Yish’s research shows that Netflix uses a hybrid model of content-based and collaborative filtering.
+
 
 **Why Recommendation systems:**
         • Revenue
@@ -67,7 +70,7 @@ They’ve released open-source machine learning algorithms and Python frameworks
 
 ![recomm](https://github.com/user-attachments/assets/e1fb0935-1d00-4918-b480-c8e954616471)
 
-1.	**Content-based Filtering**
+1. **Content-based Filtering**
    
 It uses items which are closer to each other or look like
 Recommend item to user A based on ratings user A gave the last time
@@ -76,7 +79,7 @@ It uses techniques of cosine similarity to determine the closeness of items -
         "Cosine similarity is often used in recommendation systems to suggest items or services to customers based on their preferences.
          The cosine similarity between the user and product vectors is determined, and the products with the best scores are suggested to the user."
 
-2.	**Collaborative filtering**
+2. **Collaborative filtering**
    
 How can we measure the similarity between users : in terms of item they purchase
 How can we measure the similarity between two items: in terms of the users who purchased
@@ -91,6 +94,7 @@ A hybrid recommendation system is defined as a framework that combines content-b
 
 
 A personalized thumbnail, also known as a custom thumbnail, is an image that a user uploads to represent their video and attract viewers,grow their audience, and generate more attention.
+
 A personalized thumbnail can help a user present themselves in a positive light and create a good first impression.
 To make a personalized thumbnail more visually appealing, users can use bold, bright, and saturated colors, and contrasting colors
 
